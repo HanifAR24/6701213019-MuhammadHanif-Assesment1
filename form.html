@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Operasi Aritmatika</h1>
+	<form method="POST" action="proses.php">
+		<label for="angka1">Angka Pertama:</label>
+		<input type="number" name="angka1" required><br><br>
+
+		<label for="angka2">Angka Kedua:</label>
+		<input type="number" name="angka2" required><br><br>
+
+		<label for="operator">Operator:</label>
+		<select name="operator" required>
+			<option value="">Pilih operator</option>
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+		</select><br><br>
+
+		<input type="submit" value="Hitung">
+	</form>
+</body>
+</html>
